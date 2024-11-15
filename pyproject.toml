@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "differential-practical-task"
+version = "0.1.0"
+description = ""
+authors = ["shara <sharapov.savely@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.3"
+scipy = "^1.14.1"
+rich = "^13.9.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
